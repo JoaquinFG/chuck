@@ -1,12 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react'
+import Categorias from './components/Categorias';
 
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+class App extends Component {
+  
+  render() {
+    return (
+      <div>
+        <h1>Chuck Norris</h1>
+        <Categorias />
+      </div>
+    );
+  }
+  
 }
+
 
 export default App;
